@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equive="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University of ibadan | ID_Management</title>
+
+        <!-- box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/forms.css">
+    </head>
+    <body>
+
+  <!-- header design -->
+  <header class="header">
+           <img src="images/header.png" alt="">
+<!-- 
+            <i class='bx bx-menu' id="menu-icon"></i> -->
+        </header>
+
+
+         <!-- home section design -->
+         <section class="home">
+              
+            <div class="home-content">
+                <h3>Hi Welcome to:</h3>
+                <div class="cancels">
+                    <h3><span>Registration Form</span></h3>
+                    <a href="index.php"  title="Click here to go back home"><i class='bx bx-x'></i> </a>
+                    
+                </div>
+            </div>
+            <hr class="divider" />
+            <div id="back">
+                    <h1>Kindly fill out the following field appropriately:</h1>
+                    <a href="#" class="btn" title="Click to go back to previous page">back <i class='bx bx-undo'></i></a>
+                
+                </div>
+
+                  <!-- file Upload -->
+          <div class="uploading">
+            <div class="box">
+                <div class="input-px">
+                    <h2 class="upload-area-title">Upload Passport</h2>
+                    <form action="">
+                        <input type="file" id="upload" accept=".doc, .docx, .pdf" hidden>
+                        <label for="upload" class="uploadlabel">
+                            <span><i class='bx bx-cloud-upload'></i></span>
+                            <p>Click to Upload your Passport</p>
+                        </label>
+                    </form>
+                </div>
+        
+                <div class="filewrapper">
+                    <h3 class="uploaded">Upload Documents</h3>
+                    <div class="showfilebox">
+                        <div class="left">
+                            <span class="filetype">pdf</span>
+                            <h3 id="upload"></h3>
+                        </div>
+                        <div class="right">
+                            <span>&#215;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+                <div class="registration">
+                    <form action="#" name="" method="post" class="myform">
+                        <label>
+                            Surname:
+                        </label> 
+                        <input type="text" placeholder="Enter your Surname" name="surname">
+                        <label>
+                            Othernames:
+                        </label> <input type="text" placeholder="Enter your Othernames" name="othername">
+                        <label>
+                            E-Mail:
+                        </label> <input type="email" name="email" placeholder="Enter valid email address">
+                        <label>
+                            Title:
+                        </label> <input type="text" placeholder="title" name="title">
+                        <label>
+                            Faculty:
+                        </label> <input type="text" placeholder="Faculty" name="faculty">
+                        <label>
+                            Department:
+                        </label> <input type="text" placeholder="Department" name="department">
+                        <label>
+                            Office Held:
+                        </label> <input type="text" placeholder="Office Held" name="officeheld">
+                        <label>
+                            IPPIS:
+                        </label> <input type="text" placeholder="Your IPPIS" name="ippis">
+                        <label>
+                            Phone Number:
+                        </label> <input type="number" placeholder="Your mobile Number" name="phonenumber">
+                        <label>
+                            Gender:
+                        </label>
+                        <div class="gender">
+                            <h2>Male </h2><input type="radio" name="gender" value="male">
+                            <h2>Female</h2><input type="radio" name="gender" value="Female">
+                        </div>
+                        
+                        <input type="button" value="Submit">
+                    </form>
+                </div>
+
+               
+
+
+                <div id="messageBox" class="Proceed">
+                    <p>Kindly cross check your details and ensure it is void of errors. 
+                            This details cannot be rectified upon submission and you 
+                                    would be responsible for any errors made 
+                                        in your identification card.?</p>
+                    <div class="buttons">
+                      <button id="cancelButton">Cross Check</button>
+                      <button id="proceedButton">Proceed</button>
+                    </div>
+                  </div>
+                  <button id="openMessageBoxButton">Submit</button>
+
+                 <div class="social-media">
+                    <a href="#" title="Click to connect on facebook"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"  title="Click to connect on Twitter"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"  title="Click to connect on pinterest"><i class='bx bxl-pinterest'></i></a>
+                    <a href="#"  title="Click to connect on google-plus"><i class='bx bxl-google-plus-circle' ></i></a>
+                 </div>  
+            
+
+        </section>
+          <script src="js/forms.js"></script>
+    </body>
+</html>
